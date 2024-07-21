@@ -33,7 +33,7 @@ body {
   width: 360px;
 }
 
-.content-section_theme_dark {  
+.content-section_theme_dark {
   margin: auto;
   background-color: #131313;
   color: #F5F5F5;
@@ -68,7 +68,7 @@ body {
   gap: 12px;
 }
 
-.header__menu-item_active {   
+.header__menu-item_active {
   line-height: 19.2px;
 }
 
@@ -106,7 +106,7 @@ body {
 
 .intro {
   display: flex;
-  padding: 30px 20px 37px 20px; 
+  padding: 30px 20px 37px 20px;
   flex-direction: column;
   gap: 24px;
   flex-shrink: 0;
@@ -127,22 +127,14 @@ body {
 
 .reasons {
   display: flex;
-  padding: 40px 20px 40px 20px; 
+  padding: 40px 20px 40px 20px;
   flex-direction: column;
   gap: 32px;
   flex-shrink: 0;
 }
 
-.reasons-title-first {
-  text-align: right;
-  font-family: "EB Garamond";
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 115%;
-}
-
-.reasons-title-second {
+.reasons-title {
+  display: block;
   font-family: "EB Garamond";
   font-size: 28px;
   font-style: normal;
@@ -156,7 +148,7 @@ body {
 }
 
 .content-section__list {
-  padding: 0px 0px 40px 20px; 
+  padding: 0px 0px 40px 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -173,7 +165,7 @@ body {
 
 .how-to {
   display: flex;
-  padding: 40px 20px 60px 20px; 
+  padding: 40px 20px 60px 20px;
   flex-direction: column;
   gap: 32px;
   flex-shrink: 0;
