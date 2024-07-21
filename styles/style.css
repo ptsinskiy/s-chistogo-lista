@@ -22,7 +22,7 @@ body {
   margin: 0;
   font-size: 100%;
   background-color: #979797;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   line-height: 21.6px;
   }
@@ -46,7 +46,6 @@ body {
 }
 
 .header {
-  height: 132px;
   padding: 24px 20px;
   background-color: #131313;
   color: #F5F5F5;
@@ -56,8 +55,8 @@ body {
 }
 
 .header__logo {
-  width: 78.453px;
-  height: 15.432px;
+  width: 80px;
+  height: 15.74px;
   flex-shrink: 0;
 }
 
@@ -65,23 +64,25 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 11px;
 }
 
+
 .header__menu-item_active {
-  line-height: 19.2px;
+  line-height: 19px;  
+  text-decoration-line: none;
 }
 
 .header__menu-item {
-  line-height: 19.2px;
-  text-decoration-line: underline;
+  color: #F5F5F5;
+  line-height: 19px;
 }
 
+
 .cover {
-  padding: 7px 24px 30px 20px;
-  height: 221px;
+  padding: 6px 24px 0px 20px;
   background-image: url('../images/cover.svg');
-  background-size: 95% auto;
+  background-size: 94% auto;
   background-position: right bottom;
   background-repeat: no-repeat;
 }
@@ -89,7 +90,7 @@ body {
 .accent-span {
   display: block;
   color: #FFF;
-  font-family: "EB Garamond";
+  font-family: 'EB Garamond', serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -106,7 +107,7 @@ body {
 
 .intro {
   display: flex;
-  padding: 30px 20px 37px 20px;
+  padding: 34px 20px 37px 20px;
   flex-direction: column;
   gap: 24px;
   flex-shrink: 0;
@@ -135,7 +136,7 @@ body {
 
 .reasons-title {
   display: block;
-  font-family: "EB Garamond";
+  font-family: 'EB Garamond', serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -148,7 +149,7 @@ body {
 }
 
 .content-section__list {
-  padding: 0px 0px 40px 20px;
+  padding: 0px 0px 0px 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -156,7 +157,7 @@ body {
 
 .content-section__list-item {
   font-weight: 400;
-  letter-spacing: -0.01rem;
+  letter-spacing: -0.008rem;
 }
 
 .content-section__list-accent {
@@ -184,7 +185,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  border-radius: 30px;
+  border-radius: 10%;
 }
 
 .card__author-photo {
@@ -194,14 +195,18 @@ body {
 
 .card__author-name {
   font-weight: 700;
-  line-height: 135%;
+  line-height: 133%;
 }
 
 .card__title {
-  font-family: "EB Garamond";
+  font-family: 'EB Garamond', serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 135%;
+}
+
+.card__description {
+  letter-spacing: 0.002rem;
 }
 
 .card_theme_dark {
@@ -228,4 +233,5 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 16px;
+  font-size: 14px;
 }
