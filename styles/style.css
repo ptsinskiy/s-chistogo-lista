@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 100%;
+  background-color: #979797;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 21.6px;
+  }
+
+.content-section {
+  margin: auto;
+  box-sizing: border-box;
+  width: 360px;
+}
+
+.content-section_theme_dark {  
+  margin: auto;
+  background-color: #131313;
+  color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+  margin: auto;
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+.header {
+  height: 132px;
+  padding: 24px 20px;
+  background-color: #131313;
+  color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 78.453px;
+  height: 15.432px;
+  flex-shrink: 0;
+}
+
+.header__menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header__menu-item_active {   
+  line-height: 19.2px;
+}
+
+.header__menu-item {
+  line-height: 19.2px;
+  text-decoration-line: underline;
+}
+
+.cover {
+  padding: 7px 24px 30px 20px;
+  height: 221px;
+  background-image: url('../images/cover.svg');
+  background-size: 95% auto;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.accent-span {
+  display: block;
+  color: #FFF;
+  font-family: "EB Garamond";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.intro {
+  display: flex;
+  padding: 30px 20px 37px 20px; 
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.intro__title {
+  color: #CCC;
+  line-height: 120%;
+  display: flex;
+  gap: 16;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.reasons {
+  display: flex;
+  padding: 40px 20px 40px 20px; 
+  flex-direction: column;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.reasons-title-first {
+  text-align: right;
+  font-family: "EB Garamond";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.reasons-title-second {
+  font-family: "EB Garamond";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.reasons-description {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.content-section__list {
+  padding: 0px 0px 40px 20px; 
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-section__list-item {
+  font-weight: 400;
+  letter-spacing: -0.01rem;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+.how-to {
+  display: flex;
+  padding: 40px 20px 60px 20px; 
+  flex-direction: column;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 30px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.card__title {
+  font-family: "EB Garamond";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.card_theme_dark {
+  background: #343434;
+}
+
+.card_theme_bright {
+  background: #FEE42A;
+  color: #131313;
+}
+
+.footer {
+  background-color: #131313;
+  color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #FEE42A;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}
